@@ -6,10 +6,10 @@
 #define AHB1PERIPH_OFFSET 	(0x00020000UL)
 #define AHB1PERIPH_BASE  	(PERIPH_BASE + AHB1PERIPH_OFFSET) //0x4002 0000
 #define GPIOG_OFFSET		(0x00001800UL)
-#define GPIOG_BASE          (AHB1PERIPH_BASE + GPIOG_OFFSET)
+#define GPIOG_BASE          	(AHB1PERIPH_BASE + GPIOG_OFFSET)
 
-#define RCC_OFFSET 			(0x3800UL)
-#define RCC_BASE			(AHB1PERIPH_BASE + RCC_OFFSET)
+#define RCC_OFFSET 		(0x3800UL)
+#define RCC_BASE		(AHB1PERIPH_BASE + RCC_OFFSET)
 
 #define AHB1ENR_R_OFFSET	(0x30UL)
 #define RCC_AHB1EN_R		(*(volatile unsigned int *)(RCC_BASE + AHB1ENR_R_OFFSET))
@@ -17,14 +17,14 @@
 #define MODE_R_OFFSET		(0x00UL)
 #define GPIOG_MODE_R		(*(volatile unsigned int *)(GPIOG_BASE + MODE_R_OFFSET))
 
-#define OD_R_OFFSET			(0x14UL)
-#define GPIOG_OD_R 			(*(volatile unsigned int *)(GPIOG_BASE + OD_R_OFFSET))
+#define OD_R_OFFSET		(0x14UL)
+#define GPIOG_OD_R 		(*(volatile unsigned int *)(GPIOG_BASE + OD_R_OFFSET))
 
 // Shift one to position zero. Note: one replaces the first position of zero
-#define GPIOGEN				(1U<<6) // 0b 0000 0000 0000 0000 0000 0000 0100 0000
+#define GPIOGEN			(1U<<6) // 0b 0000 0000 0000 0000 0000 0000 0100 0000
 
-#define PIN13 				(1U<<13)
-#define LED_PIN				PIN13
+#define PIN13 			(1U<<13)
+#define LED_PIN			PIN13
 
 /*
  * (1U<<26) // Set bit 26 to 1
