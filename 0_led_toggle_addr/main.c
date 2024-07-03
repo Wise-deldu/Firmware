@@ -20,11 +20,11 @@
 #define OD_R_OFFSET		(0x14UL)
 #define GPIOG_OD_R 		(*(volatile unsigned int *)(GPIOG_BASE + OD_R_OFFSET))
 
-// Shift one to position zero. Note: one replaces the first position of zero
+// Shift one to position six. Note: one replaces the sixth position of zero
 #define GPIOGEN			(1U<<6) // 0b 0000 0000 0000 0000 0000 0000 0100 0000
 
 #define PIN13 			(1U<<13)
-#define LED_PIN			PIN13
+#define LED_PIN			PIN13	
 
 /*
  * (1U<<26) // Set bit 26 to 1
