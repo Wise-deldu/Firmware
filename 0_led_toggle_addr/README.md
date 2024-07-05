@@ -3,7 +3,10 @@
 This project marks the commencement of my first bare metal project.
 
 ## Aim
-The purpose of this project is to Toggle the LED.
+* The purpose of this project is to Toggle the LED.
+* Build everything from scratch without employing any header file
+
+## Procedure
 
 Before the commencement of the project, three documentations were dowloaded. They are:
 
