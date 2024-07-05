@@ -2,6 +2,7 @@
 
 This project marks the commencement of my first bare metal project.
 
+## Aim
 The purpose of this project is to Toggle the LED.
 
 Before the commencement of the project, three documentations were dowloaded. They are:
