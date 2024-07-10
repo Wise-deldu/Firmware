@@ -4,8 +4,6 @@
 #include "uart.h"
 
 
-
-
 int main(void)
 {
     uart1_tx_init(); /* Initialized the tx */
