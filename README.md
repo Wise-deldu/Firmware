@@ -1,4 +1,4 @@
 # PROJECTS ON STM32F429ZI MCU DISCOVERY BOARD
 
 ## Aim
-To have practical projects on embedded systems.
+To write embedded programs for the STM32F429ZI MCU.
